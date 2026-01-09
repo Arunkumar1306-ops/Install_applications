@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Rename dependencies file
+        run: mv dependencies.txt requirements.txt
+
       - name: Install dependencies
         run: pip install -r requirements.txt
  
