@@ -3,7 +3,6 @@ name: Event Types
 on:
   push:
     branches:
-      - main
       - "feature_*"
 
 
