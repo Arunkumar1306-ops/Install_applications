@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - 'feature_*'
+      - "feature_*"
 
 
   workflow_dispatch:
