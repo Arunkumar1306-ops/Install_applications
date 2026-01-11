@@ -20,7 +20,3 @@ jobs:
       - name: Setup Python
         run: echo "hello world"
  
- 
-      - name: Run Python script
-        run: python main.py
- 
