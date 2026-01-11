@@ -1,0 +1,21 @@
+name: Event Types
+ 
+on:
+  push:
+    branches:
+      - "feature_*"
+
+#
+  workflow_dispatch:
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+ 
+      - name: Setup Python
+        run: echo "hello world"
+ 
