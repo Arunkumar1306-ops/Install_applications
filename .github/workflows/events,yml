@@ -3,7 +3,7 @@ name: Event Types
 on:
   push:
     branches:
-      - "feature_1"
+      - "feature_*"
 
 #
   workflow_dispatch:
