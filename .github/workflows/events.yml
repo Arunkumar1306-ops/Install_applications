@@ -2,10 +2,10 @@ name: Event Types
  
 on:
   push:
-    # branches:
-    #   - "feature_*"
-    branches-ignore:
+    branches:
       - "feature_*"
+    # branches-ignore:
+    #   - "feature_*"
  
 jobs:
   build:
