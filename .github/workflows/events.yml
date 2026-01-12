@@ -8,6 +8,7 @@ on:
     #   - "feature_*"
     paths:
        - "src/**"
+       - "dependencies.txt
  
 jobs:
   build:
