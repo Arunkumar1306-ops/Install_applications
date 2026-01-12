@@ -16,6 +16,7 @@ on:
         - main
 
   issues:
+      types: [opened]
 
   schedule:
      - cron: "48 15 * * *"  
