@@ -6,6 +6,8 @@ on:
       - "feature_*"
     # branches-ignore:
     #   - "feature_*"
+    paths:
+       - "src/**"
  
 jobs:
   build:
