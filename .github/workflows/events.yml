@@ -2,7 +2,9 @@ name: Event Types
  
 on:
   push:
-    branches:
+    # branches:
+    #   - "feature_*"
+    branches-ignore:
       - "feature_*"
  
 jobs:
