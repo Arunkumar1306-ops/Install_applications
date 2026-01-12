@@ -7,9 +7,9 @@ on:
       - "feature_*"
     # branches-ignore:
     #   - "feature_*"
-    # paths:
-    #    - "src/**"
-    #    - "dependencies.txt"
+    paths:
+       - "src/**"
+       - "dependencies.txt"
 
   pull_request:
      branches:
