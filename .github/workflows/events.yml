@@ -16,7 +16,7 @@ on:
         - main
 
   schedule:
-     - cron: "42 15 * * *"  
+     - cron: "48 15 * * *"  
 
 #
   workflow_dispatch:
